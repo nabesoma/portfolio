@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lamg="ja">
+<head>
+  <title>極光 portfolio site</title>
+  <meta charset="utf-8">
+  <meta name="description" content="WEB制作を承ります。「極光」のポートフォリオサイトです">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="style.css" >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+JP:wght@100..900&family=Yusei+Magic&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <a class="header-logo" href="#"><img src="images/logo.png" alt="ロゴ"></a>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a class="menu" href="#">HOME</a></li>
+            <li class="gnav-item"><a class="menu" href="#works">WORKS</a></li>
+            <li class="gnav-item"><a class="menu" href="#about">ABOUT</a></li>
+            <li class="gnav-item"><a class="menu" href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+      <!-- main view -->
+      <div class="main" >
+        <div id="sun"><img src="images/sun.png"></div>
+        <div id="main-text"><img src="images/webdesign.png"></div>
+        <div id="main-logo-box">
+          <div id="main-logo"><img src="images/main-logo.png"></div>
+        </div>
+        <div id="mountain-left"><img src="images/mountain-left.png"></div>
+        <div id="mountain-right"><img src="images/mountain-right.png"></div>
+        <div id="yellow-line-box">
+          <hr id="yellow-line">
+        </div>  
+        <div id="green-line-box">
+          <hr id="green-line">
+        </div>
+      </div>
+
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="text-border">
+          <h1>WORKS</h1>
+        </div>
+        <div class="work">
+          <div class="work-img"></div>
+          <h3 class="work-title"></h3>
+        </div>
+        <div class="work">
+          <div class="work-img"></div>
+          <h3 class="work-title"></h3>
+        </div>
+        <div class="work">
+          <div class="work-img"></div>
+          <h3 class="work-title"></h3>
+        </div>
+        <div class="work">
+          <div class="work-img"></div>
+          <h3 class="work-title"></h3>
+        </div>
+        <div class="work">
+          <div class="work-img"></div>
+          <h3 class="work-title"></h3>
+        </div>
+        <div class="work">
+          <div class="work-img"></div>
+          <h3 class="work-title"></h3>
+        </div>
+        <button class="button" type="button" onclick="location.href='works.html'">もっとみる &rarr;</button>
+      </section>
+      <!-- /works -->
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="text-border">
+          <h1>ABOUT</h1>
+        </div>
+        <div id="about-left">
+          <div id="about"><img src="images/about.png"></div>
+          <h2>渡邊壮真</h2>
+          <h2>(わたなべ そうま)</h2>
+        </div>
+        <div id="about-right">
+          <p>
+            2001年 7月19日 生まれ。<br>
+            岐阜県 大垣市 出身。<br>
+            <br>
+            皆さんの人生の思い出に残る仕事をしたい！<br>
+            そんな思いでWEBサイト制作の仕事をしております。<br>
+            <br>
+            「極光(きょっこう)」というのは小学生時代に見た「オーロラ」が由来でつけた、私の活動のスローガンです。
+          </p>
+          <button class="button" type="button" onclick="location.href='about.html'">私のいろいろ &rarr;</button>
+        </div>
+      </section>
+      <!-- /about -->
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <h1>CONTACT</h1>
+        <p>「お仕事のご相談」から「応援メッセージ」まで、なんでも気軽にお問い合わせください。</p>
+        <h2>お名前・所属等</h2>
+        <form>
+          <input type="text">
+        </form>
+        <h2>メールアドレス</h2>
+        <form>
+          <input type="text">
+        </form>
+        <h2>お問い合わせ内容</h2>
+        <form>
+          <textarea></textarea>
+        </form>
+      </section>
+      <!-- /contact -->
+
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <nav class="footer-gnav">
+        <ul class="gnav-list-footer">
+          <li class="gnav-item-footer"><a class="menu-footer" href="#">HOME</a></li>
+          <li class="gnav-item-footer"><a class="menu-footer" href="#works">WORKS</a></li>
+          <li class="gnav-item-footer"><a class="menu-footer" href="#about">ABOUT</a></li>
+          <li class="gnav-item-footer"><a class="menu-footer" href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="footer-logo-box">
+        <a class="footer-logo" href="#"><img src="images/footer-logo.png" alt="ロゴ"></a>
+      </div>  
+      <text class="copyright">&copy;KYOKKO2024</text>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>

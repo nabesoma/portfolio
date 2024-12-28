@@ -1,0 +1,180 @@
+
+/*---------------------
+-----------------------
+Common to all pages 
+----------------------
+----------------------*/
+html{
+  width: 100%;
+}
+body{
+  background-color: #fff6ed;
+  font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+/*----- header -----*/
+.header{
+  position: fixed;
+  top: 0;
+  background-color: #6bb392;
+  height: 80px;
+  box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
+  width: 100%;
+  z-index: 50;
+}
+.header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo{
+  margin-top: 0;
+  margin-left: 32px;
+}
+.gnav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.gnav-item{
+  margin-right: 40px;
+  color: #ffffff;
+}
+.gnav-item:not(:last-child) {
+  margin-right: 65px;
+}
+.menu{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 28px;
+}
+.menu:hover{
+  text-decoration: underline;
+}
+.wrapper{
+  position: absolute;
+  top: 80px;
+  width: 100%;
+}
+
+/* -----footer----- */
+.footer{
+  background-color: #6bb392;
+  height: 260px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer-gnav{
+  position: absolute;
+  width: 100%;
+}
+.gnav-list-footer{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.gnav-item-footer{
+  
+}
+.menu-footer{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 28px;
+  margin: 0 20px 0 20px;
+}
+.menu-footer:hover{
+  text-decoration: underline;
+}
+.footer-logo-box{
+  position: absolute;
+  top: 96px;
+  width: 100%;
+}
+.footer-logo{
+  display: flex;
+  justify-content: center;
+}
+.copyright{
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+}
+
+h1{
+  font-size: 40px;
+  color: #6bb392;
+  text-shadow: 2px 2px 2px gray;
+}
+.text-border{
+  text-align: center;
+}
+
+
+
+/* --------------------
+-----------------------
+-------HOMEページ-------
+-----------------------
+----------------------- */
+
+/* -----main----- */
+.content{
+  
+}
+.main{
+  height: 800px;
+}
+#sun{
+  position: absolute;
+  top: 20px;
+  right: 95px;
+  z-index: 10;
+}
+#main-text{
+  position: absolute;
+  top: 150px;
+  left: 320px;
+}
+#main-logo-box{
+  position: absolute;
+  top: 285px;
+  width: 100%;
+}
+#main-logo{
+  display: flex;
+  justify-content: center;
+}
+#mountain-left{
+  position: absolute;
+  top: 433px;
+  left: 0;
+  box-shadow: 2px 2px 2px gray;
+}
+#mountain-right{
+  position: absolute;
+  top: 433px;
+  right: 0;
+}
+yellow-line-box{
+  position: absolute;
+  top: 595px;
+}
+#yellow-line{
+  border-width:10px 0 0 0;
+  border-color: #fbca5a;
+  margin: 0;
+}
+yellow-line-box{
+  position: absolute;
+  bottom: 616px;
+}
+#green-line{
+  border-width:10px 0 0 0;
+  border-color: #6bb392;
+  margin: 0;
+}
+
